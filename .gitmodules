@@ -1,0 +1,6 @@
+[submodule "scripts"]
+	path = scripts
+	url = git@bitbucket.org:titledk/scripts.git
+[submodule "public/backup"]
+	path = public/backup
+	url = git@bitbucket.org:titledk/silverstripe-backup

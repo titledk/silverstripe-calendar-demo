@@ -1,0 +1,13 @@
+
+/public/silverstripe-cache/
+/_ss_environment.php
+.DS_Store
+public/cms/
+public/framework/
+public/themes/simple
+public/themes/tutorial
+logs
+rotatingbackups
+temp
+.idea
+

@@ -1,0 +1,7 @@
+SITENAME: "MYSITE"
+SERVER: "he1.title.dk"
+SSHUSER: "root"
+SSHPORT: ""
+REPODIR: "/var/www/vhosts/TESTSITEDIR/git-repo"
+WEBUSERANDGROUP: "TESTSITEUSER:psaserv"
+DEPLOY_DONTCHOWN: "1"

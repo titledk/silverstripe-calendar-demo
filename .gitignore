@@ -6,6 +6,7 @@ public/cms/
 public/framework/
 public/themes/simple
 public/themes/tutorial
+public/calendar/
 logs
 rotatingbackups
 temp

@@ -7,7 +7,7 @@ define('SS_DATABASE_NAME', 'calendar-demo');
 define('SS_ENVIRONMENT_TYPE', 'live');
 
 define('SS_DEFAULT_ADMIN_USERNAME', 'info@title.dk');
-define('SS_DEFAULT_ADMIN_PASSWORD', 'letmein');
+define('SS_DEFAULT_ADMIN_PASSWORD', 'password');
 
 //error log - the first line seems to be the proper one
 //you might need to create silverstripe.log though, and give it the proper permissions

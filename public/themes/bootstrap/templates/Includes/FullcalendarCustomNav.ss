@@ -16,7 +16,5 @@
 			</li>
 			<li class="next"><a href="#" class="next">Next Month &rarr;</a></li>
 		</ul>
-		
-
 	</div>
 </div>

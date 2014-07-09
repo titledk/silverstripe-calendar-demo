@@ -10,11 +10,11 @@
 	</div>
 	<div class="fullcalendarCustomNavBottom">
 		<ul class="pager prev-next">
-			<li class="previous"><a href="#" class="prev">&larr; Previous Month</a></li>
+			<li class="previous"><a href="$PrevMonthLink" class="prev">&larr; Previous</a></li>
 			<li>
-				<span id="FullcalendarTitle" class="title"></span>
+				<span id="FullcalendarTitle" class="title">$CurrentMonthStr</span>
 			</li>
-			<li class="next"><a href="#" class="next">Next Month &rarr;</a></li>
+			<li class="next"><a href="$NextMonthLink" class="next">Next&rarr;</a></li>
 		</ul>
 	</div>
 </div>

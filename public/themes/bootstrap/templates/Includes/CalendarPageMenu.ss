@@ -8,8 +8,8 @@
 		<a href="{$EventListLink}">List View</a>
 	</li>
 	<% if $RegistrationsEnabled %>
-		<li class="registerableevents <% if $CurrentMenu == 'registerableevents'%>active<% end_if %>">
-			<a href="{$Link}registerableevents/">Registerable Events</a>
+		<li class="registerableevents <% if $CurrentMenu == 'eventregistration'%>active<% end_if %>">
+			<a href="{$Link}eventregistration/">Event Registration</a>
 		</li>
 	<% end_if %>
 	<% if $SearchEnabled %>

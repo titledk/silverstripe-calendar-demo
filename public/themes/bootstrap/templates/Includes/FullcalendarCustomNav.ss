@@ -2,7 +2,7 @@
 <div id="FullcalendarCustomNav">
 	<% if $CurrentMenu == 'calendarview'%>
 		<div class="fullcalendarCustomNavTop">
-			<div class="btn-group">
+			<div class="date-tabs btn-group">
 				<a href="#" class="btn btn-default day">Day</a>
 				<a href="#" class="btn btn-default week">Week</a>
 				<a href="#" class="btn btn-default month current">Month</a>

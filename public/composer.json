@@ -12,7 +12,8 @@
 		"silverstripe/cms": "3.1.5",
 		"silverstripe/framework": "3.1.5",
 		"silverstripe-themes/simple": "*",
-		"titledk/silverstripe-calendar": "dev-master"
+		"titledk/silverstripe-calendar": "dev-dev",
+		"unclecheese/bootstrap-forms": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600	

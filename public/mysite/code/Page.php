@@ -33,7 +33,10 @@ class Page_Controller extends ContentController {
 		// You can include any CSS or JS required by your project here.
 		// See: http://doc.silverstripe.org/framework/en/reference/requirements
 		
-		Requirements::javascript('themes/bootstrap/bower_components/jquery/dist/jquery.min.js');
+		//Requirements::javascript('themes/bootstrap/bower_components/jquery/dist/jquery.min.js');
+		//here we're using the jQuery version shipped with SilverStripe i order for form fields to work on the frontend
+		Requirements::javascript(THIRDPARTY_DIR."/jquery/jquery.js");
+		
 		Requirements::javascript('themes/bootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js');
 
 		

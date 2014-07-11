@@ -12,3 +12,5 @@ rotatingbackups
 temp
 .idea
 
+public/themes/bootstrap/.sass-cache/
+public/bootstrap-forms/

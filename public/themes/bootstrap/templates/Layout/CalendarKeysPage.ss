@@ -3,4 +3,6 @@
 <div class="content">
 	$Content
 	$Form
+
+	<% include CalendarKeys %>
 </div>

@@ -12,11 +12,19 @@
 	<% end_if %>
 	<div class="fullcalendarCustomNavBottom">
 		<ul class="pager prev-next">
-			<li class="previous"><a href="$PrevMonthLink" class="prev">&larr; Previous</a></li>
-			<li>
-				<span id="FullcalendarTitle" class="title">$CurrentMonthStr</span>
-			</li>
-			<li class="next"><a href="$NextMonthLink" class="next">Next&rarr;</a></li>
+			<% if $CurrentMenu == 'calendarview' %>
+				<li class="previous"><a href="#" class="prev">&larr; Previous</a></li>
+				<li>
+					<span id="FullcalendarTitle" class="title"></span>
+				</li>
+				<li class="next"><a href="#" class="next">Next&rarr;</a></li>
+			<% else %>
+				<li class="previous"><a href="$PrevMonthLink" class="prev">&larr; Previous</a></li>
+				<li>
+					<span id="FullcalendarTitle" class="title">$CurrentMonthStr</span>
+				</li>
+				<li class="next"><a href="$NextMonthLink" class="next">Next&rarr;</a></li>
+			<% end_if %>
 		</ul>
 	</div>
 </div>

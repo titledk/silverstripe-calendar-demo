@@ -1,0 +1,100 @@
+
+#PopulateMergeMatch on calendars doesn't work - if so, the event relation doesn't get picked up
+#hence these are truncated on each population, see config.yml
+PublicCalendar:
+  Holidays:
+    Title: 'Holidays'
+    URLSegment: 'holidays'
+    Color: '#557474'
+    Shaded: 1
+    #PopulateMergeMatch:
+    #  - URLSegment  
+  Meetings:
+    Title: 'Meetings'
+    URLSegment: 'meetings'
+    Color: '#71d843'
+  Private:
+    Title: 'Private'
+    URLSegment: 'private'
+    Color: '#456537'
+  Concerts:
+    Title: 'Concerts'
+    URLSegment: 'concerts'
+    Color: '#d60a6f'
+    #PopulateMergeMatch:
+    #  - URLSegment
+
+
+PublicEvent:
+  holidayA:
+    Title: 'Holdiay A'
+    StartDateTime: '2014-07-02 00:00:00'
+    EndDateTime: '2014-07-09 00:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Calendar: =>PublicCalendar.Holidays
+    PopulateMergeMatch:
+      - StartDateTime
+  meetingA:
+    Title: 'Meeting A'
+    StartDateTime: '2014-07-11 06:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:00:00'
+    Calendar: =>PublicCalendar.Meetings
+    PopulateMergeMatch:
+      - StartDateTime
+  meetingB:
+    Title: 'Meeting B'
+    StartDateTime: '2014-07-12 08:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:00:00'
+    Calendar: =>PublicCalendar.Meetings
+    PopulateMergeMatch:
+      - StartDateTime
+  meetingC:
+    Title: 'Meeting C'
+    StartDateTime: '2014-07-13 07:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:00:00'
+    Calendar: =>PublicCalendar.Meetings
+    PopulateMergeMatch:
+      - StartDateTime
+  privateA:
+    Title: 'Private A'
+    StartDateTime: '2014-07-11 06:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:00:00'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+
+
+
+
+
+
+
+#CategoryHome:
+#  Emner:
+#    Title: 'Emner'
+#    ParentID: 0
+#    URLSegment: 'emner'
+#    #PopulateMergeWhen: "URLSegment = 'emner' AND ParentID = 0"
+#    #PopulateMergeMatch:
+#    #  - URLSegment
+#    #  - ParentID
+#
+#
+#CategoryGroup:
+#  groupA:
+#    Title: 'Målgruppe'
+#    Parent: =>CategoryHome.Emner
+#  groupB:
+#    Title: 'Redskaber'
+#    Parent: =>CategoryHome.Emner
+#  groupC:
+#    Title: 'Sektor'
+#    Parent: =>CategoryHome.Emner
+#  groupD:
+#    Title: 'Effekt'
+#    Parent: =>CategoryHome.Emner

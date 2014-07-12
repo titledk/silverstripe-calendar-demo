@@ -8,7 +8,15 @@
 4. Point your local server to `public`, and enter the url
 
 
-## Edit Styles (only calendar styling)
+## Populate test data
+
+Run the following task to create test data.    
+**NOTE** that this will overwrite any events in the calendar!
+
+	/dev/tasks/PopulateTask/
+
+
+## Edit Demo styles
 
 run `/watch.sh` (you need to have Compass installed for this)
 

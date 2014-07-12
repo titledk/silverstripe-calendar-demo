@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "14d46a2925fa97ea3b5d1b78e7496266",
+    "hash": "3f44a70db1f399d5a82d43093b3da2e0",
     "packages": [
         {
             "name": "composer/installers",
@@ -94,6 +94,41 @@
                 "zikula"
             ],
             "time": "2014-07-09 14:29:42"
+        },
+        {
+            "name": "dnadesign/silverstripe-populate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnadesign/silverstripe-populate.git",
+                "reference": "901f4e298a656e99a810f8bd4d46b5e8914714ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnadesign/silverstripe-populate/zipball/901f4e298a656e99a810f8bd4d46b5e8914714ae",
+                "reference": "901f4e298a656e99a810f8bd4d46b5e8914714ae",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": ">=3.1.3"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "populate"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will.rossiter@dna.co.nz"
+                }
+            ],
+            "description": "Populate your database through YAML files",
+            "keywords": [
+                "silverstripe",
+                "yaml"
+            ],
+            "time": "2014-04-06 02:10:29"
         },
         {
             "name": "silverstripe-themes/simple",

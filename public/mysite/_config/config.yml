@@ -9,3 +9,8 @@ After:
 # Caution: Indentation through two spaces, not tabs
 SSViewer:
   theme: 'bootstrap'
+Populate:
+  include_yaml_fixtures:
+    - 'mysite/fixtures/demo-data.yml'
+  truncate_objects:
+    - Calendar

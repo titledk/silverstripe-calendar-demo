@@ -1,29 +1,4 @@
 
-#PopulateMergeMatch on calendars doesn't work - if so, the event relation doesn't get picked up
-#hence these are truncated on each population, see config.yml
-PublicCalendar:
-  Holidays:
-    Title: 'Holidays'
-    URLSegment: 'holidays'
-    Color: '#C6E2B2'
-    Shaded: 1
-    #PopulateMergeMatch:
-    #  - URLSegment  
-  Meetups:
-    Title: 'Meetups'
-    URLSegment: 'meetups'
-    Color: '#71d843'
-  Private:
-    Title: 'Private'
-    URLSegment: 'private'
-    Color: '#456537'
-  Concerts:
-    Title: 'Concerts'
-    URLSegment: 'concerts'
-    Color: '#d60a6f'
-    #PopulateMergeMatch:
-    #  - URLSegment
-
 
 PublicEvent:
 

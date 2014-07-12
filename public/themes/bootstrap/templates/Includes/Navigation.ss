@@ -9,7 +9,9 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">SilverStripe Calendar Demo</a>
+			<a class="navbar-brand" href="/">
+				$SiteConfig.Title
+			</a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
@@ -35,8 +37,8 @@
 				</li>
 				--%>
 			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="http://title.dk" target="_blank">by title.dk</a></li>
+			<ul class="nav navbar-nav navbar-right titledk-branding">
+				<li><a href="http://title.dk" target="_blank">by Title Web Solutions</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div><!--/.container-fluid -->

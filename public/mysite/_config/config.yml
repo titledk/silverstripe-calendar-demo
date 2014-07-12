@@ -11,6 +11,7 @@ SSViewer:
   theme: 'bootstrap'
 Populate:
   include_yaml_fixtures:
+    - 'mysite/fixtures/pages.yml'
     - 'mysite/fixtures/calendars.yml'
     - 'mysite/fixtures/events-june.yml'
     - 'mysite/fixtures/events-july.yml'

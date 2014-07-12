@@ -1,3 +1,14 @@
+//
+// Demo styling
+// Some styling to aid the demo
+// This is just to show how thing could be amended
+// The idea is for the calendar to have as little styling as necessary
+// so it will easily fit into any design
+//
+
+
+
+
 @import "compass/utilities";
 @import "compass/typography/text/replacement";
 
@@ -25,6 +36,16 @@ body {
 
 .navbar {
 	margin-bottom: 20px;
+	
+	.navbar-brand {
+		font-size:12px;
+	}
+	.titledk-branding {
+		a {
+			font-size:12px;
+			color:#7b1f45!important;
+		}
+	}
 }
 
 
@@ -73,6 +94,8 @@ body {
 
 //////////////////////////////
 //Add Event Page
+//This is some custom styling to show how an add event form could
+//look like in the frontend
 //////////////////////////////
 .AddEventPage {
 	.PublicEventForm {

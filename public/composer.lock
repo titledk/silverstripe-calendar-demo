@@ -268,7 +268,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:titledk/silverstripe-calendar.git",
-                "reference": "7f48723fb10a96699354637c72090d40956558c4"
+                "reference": "b258ec91024fae1f09dc883e88c0177d69c46b8f"
             },
             "type": "silverstripe-module",
             "extra": {
@@ -291,7 +291,7 @@
                 "events",
                 "silverstripe"
             ],
-            "time": "2014-07-11 08:40:23"
+            "time": "2014-07-12 14:58:09"
         },
         {
             "name": "unclecheese/bootstrap-forms",

@@ -22,9 +22,9 @@ AddEventPage:
     Content: "<p>An example of how to add events through the frontend</p>"
     URLSegment: 'add-events'
     ParentID: 0
-CalendarKeysPage:
-  calendar-keys:
-    Title: "Calendar Keys"
-    Content: "<p>Demonstration of the calendar keys:</p>"
-    URLSegment: 'calendar-keys'
-    ParentID: 0
+#CalendarKeysPage:
+#  calendar-keys:
+#    Title: "Calendar Keys"
+#    Content: "<p>Demonstration of the calendar keys:</p>"
+#    URLSegment: 'calendar-keys'
+#    ParentID: 0

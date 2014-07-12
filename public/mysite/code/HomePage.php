@@ -12,6 +12,7 @@ class HomePage_Controller extends Page_Controller {
 
 
 	public function init() {
+		Requirements::css('calendar/css/modules.css');
 		parent::init();
 		
 	}
@@ -26,6 +27,12 @@ class HomePage_Controller extends Page_Controller {
 	
 	public function CalendarKeysPage() {
 		return CalendarKeysPage::get()->first();
+	}
+	
+	public function CalendarByUrl($url) {
+		return PublicCalendar::get()
+			->filter('URLSegment', $url)
+			->first();
 	}
 	
 }

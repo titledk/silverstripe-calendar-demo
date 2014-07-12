@@ -14,3 +14,4 @@ Populate:
     - 'mysite/fixtures/demo-data.yml'
   truncate_objects:
     - Calendar
+    - Event

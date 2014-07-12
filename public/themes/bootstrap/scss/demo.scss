@@ -28,6 +28,52 @@ body {
 }
 
 
+
+//////////////////////////////
+//Event list
+//////////////////////////////
+
+.EventList {
+	.event {
+		.doRegister {
+			//this is the bootstrap default button
+			//would be better do use a mixin here
+
+			//.btn {
+				-moz-user-select: none;
+				background-image: none;
+				border: 1px solid transparent;
+				border-radius: 4px;
+				cursor: pointer;
+				display: inline-block;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 1.42857;
+				margin-bottom: 0;
+				padding: 6px 12px;
+				text-align: center;
+				vertical-align: middle;
+				white-space: nowrap;
+			//}
+			
+
+			//.btn-primary {
+				background-color: #428bca;
+				border-color: #357ebd;
+				color: #fff;
+			//}
+			
+			float:right;
+		}
+	}
+}
+
+
+
+
+//////////////////////////////
+//Add Event Page
+//////////////////////////////
 .AddEventPage {
 	.PublicEventForm {
 		.form-control[disabled], 

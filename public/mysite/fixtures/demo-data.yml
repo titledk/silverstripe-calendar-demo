@@ -5,13 +5,13 @@ PublicCalendar:
   Holidays:
     Title: 'Holidays'
     URLSegment: 'holidays'
-    Color: '#557474'
+    Color: '#C6E2B2'
     Shaded: 1
     #PopulateMergeMatch:
     #  - URLSegment  
-  Meetings:
-    Title: 'Meetings'
-    URLSegment: 'meetings'
+  Meetups:
+    Title: 'Meetups'
+    URLSegment: 'meetups'
     Color: '#71d843'
   Private:
     Title: 'Private'
@@ -26,48 +26,168 @@ PublicCalendar:
 
 
 PublicEvent:
-  holidayA:
-    Title: 'Holdiay A'
+
+  #Holidays
+  holidayJulyA:
+    Title: 'Holiday July A'
     StartDateTime: '2014-07-02 00:00:00'
     EndDateTime: '2014-07-09 00:00:00'
     AllDay: 1
     TimeFrameType: 'DateTime'
+    Details: '<p>A holidays in July. These are the first holidays in July</p>'
     Calendar: =>PublicCalendar.Holidays
     PopulateMergeMatch:
       - StartDateTime
-  meetingA:
-    Title: 'Meeting A'
-    StartDateTime: '2014-07-11 06:00:00'
-    TimeFrameType: 'Duration'
-    Duration: '02:00:00'
-    Calendar: =>PublicCalendar.Meetings
+  holidayJulyB:
+    Title: 'Holiday July B'
+    StartDateTime: '2014-07-24 00:00:00'
+    EndDateTime: '2014-07-27 00:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>B holidays in July. These are the second holidays in July</p>'
+    Calendar: =>PublicCalendar.Holidays
     PopulateMergeMatch:
       - StartDateTime
-  meetingB:
-    Title: 'Meeting B'
-    StartDateTime: '2014-07-12 08:00:00'
-    TimeFrameType: 'Duration'
-    Duration: '02:00:00'
-    Calendar: =>PublicCalendar.Meetings
+
+  #Meetups
+  meetupJulyA:
+    Title: 'Meetup July A'
+    StartDateTime: '2014-07-11 16:00:00'
+    EndDateTime: '2014-07-13 16:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>July's A meetup scheduled for A.</p>'
+    Calendar: =>PublicCalendar.Meetups
+    Registerable: 1
     PopulateMergeMatch:
       - StartDateTime
-  meetingC:
-    Title: 'Meeting C'
-    StartDateTime: '2014-07-13 07:00:00'
-    TimeFrameType: 'Duration'
-    Duration: '02:00:00'
-    Calendar: =>PublicCalendar.Meetings
+  meetupJulyB:
+    Title: 'Meetup July B'
+    StartDateTime: '2014-07-25 16:00:00'
+    EndDateTime: '2014-07-26 16:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>July's B meetup scheduled for B.</p>'
+    Calendar: =>PublicCalendar.Meetups
+    Registerable: 1
     PopulateMergeMatch:
       - StartDateTime
-  privateA:
-    Title: 'Private A'
-    StartDateTime: '2014-07-11 06:00:00'
+  meetupJulyC:
+    Title: 'Meetup July C'
+    StartDateTime: '2014-07-30 16:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>July's C meetup scheduled for C.</p>'
+    Calendar: =>PublicCalendar.Meetups
+    Registerable: 1
+    PopulateMergeMatch:
+      - StartDateTime
+
+
+  #Private
+  privateJulyA:
+    Title: 'Private July A'
+    StartDateTime: '2014-07-11 22:00:00'
     TimeFrameType: 'Duration'
-    Duration: '02:00:00'
+    Duration: '03:00:00'
+    Details: '<p>Private event A for July. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateJulyB:
+    Title: 'Private July B'
+    StartDateTime: '2014-07-02 12:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '05:00:00'
+    Details: '<p>Private event B for July. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateJulyC:
+    Title: 'Private July C'
+    StartDateTime: '2014-07-22 21:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '01:00:00'
+    Details: '<p>Private event C for July. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateJulyD:
+    Title: 'Private July D'
+    StartDateTime: '2014-07-07 15:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '01:30:00'
+    Details: '<p>Private event D for July. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateJulyE:
+    Title: 'Private July E'
+    StartDateTime: '2014-07-26 9:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '08:00:00'
+    Details: '<p>Private event E for July. This is a demo event for the "Private" calendar.</p>'
     Calendar: =>PublicCalendar.Private
     PopulateMergeMatch:
       - StartDateTime
 
+  #Concerts
+  concertJulyA:
+    Title: 'Concert July A'
+    StartDateTime: '2014-07-07 22:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:00:00'
+    Details: '<p>The A concert for July. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 22
+    PopulateMergeMatch:
+      - StartDateTime
+  concertJulyB:
+    Title: 'Concert July B'
+    StartDateTime: '2014-07-09 16:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:50:00'
+    Details: '<p>The B concert for July. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 12
+    PopulateMergeMatch:
+      - StartDateTime
+  concertJulyC:
+    Title: 'Concert July C'
+    StartDateTime: '2014-07-18 18:30:00'
+    TimeFrameType: 'Duration'
+    Duration: '03:30:00'
+    Details: '<p>The C concert for July. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 20
+    PopulateMergeMatch:
+      - StartDateTime
+  concertJulyD:
+    Title: 'Concert July D'
+    StartDateTime: '2014-07-19 22:30:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:55:00'
+    Details: '<p>The D concert for July. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 9
+    PopulateMergeMatch:
+      - StartDateTime
 
 
 

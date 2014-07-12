@@ -27,9 +27,9 @@
 	
 	<h2>Calendar</h2>
 	<p>
-		The calendar on this site is configured with the calendar view as default.
-		Optionally there's an event list (listing all events in a month), and the
-		event registration list (listing all registerable events for a month). <br />
+		The calendar on this site is configured with the calendar view as default. <br />
+		There's also an event list <em>(listing all events in a month)</em>, and the
+		event registration list <em>(listing all registerable events for a month)</em>. <br />
 		There's also an event search.
 	</p>
 	<p>
@@ -54,7 +54,7 @@
 	
 	<p>
 		The calendar contains a registration plugin, which is turned on on this demo. <br />
-		Once registered, registrations can be seen fron
+		Once registered, registrations can be seen in the backend.
 	</p>
 
 	<div class="btn-group">
@@ -73,7 +73,7 @@
 	<h3>Event Search</h3>
 	<p>
 		The calendar includes a basic event search. You can use it directly on the calendar page,
-		or run one of the following test searches:	
+		or run one of the following test searches:
 	</p>
 	
 	<div class="btn-group">
@@ -90,7 +90,7 @@
 	<h2>Adding events via the frontend</h2>
 	<p>
 		We've built the code to be as modular as possible. As an example we've built an "add event" feature
-		into the frontent, which allows you to add events directly from the frontend. <br />
+		into the frontent on this demo. <br />
 		There are no credentials needed to do so, which works great for a demo, but of course is not feasible for
 		a real live scenario.	
 	</p>
@@ -100,7 +100,29 @@
 		Add events
 	</a>
 
+	<h2>Calendar Keys</h2>
+	<p>
+		The calendar contains a "keys" list, which is usually used on the sidebar.
+		This list lists available calendars, and their colors. By clicking a calendar,
+		you'll get to the calendar's ics feed. 
+	</p>
 
+	<a class="btn btn-primary" href="$CalendarKeysPage.Link">
+		<span class="glyphicon glyphicon-ok"></span>
+		Show Calendar Keys
+	</a>
+	
+	
+	<h2>Installation</h2>
+	<p>
+		In order to get acquainted with the calendar module it's best to install it locally on your computer. <br/>
+		The demo system contains all data needed, as well as all test data. <br />
+		All you need to do is to do a git checkout, and run composer.
+	</p>
+	<p>
+		Once you've been granted access to the demo system, follow the instructions in the <code>README.md</code>
+		file in the root of the repository. 
+	</p>
 	
 	
 </div>

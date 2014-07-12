@@ -24,4 +24,8 @@ class HomePage_Controller extends Page_Controller {
 		return AddEventPage::get()->first();
 	}
 	
+	public function CalendarKeysPage() {
+		return CalendarKeysPage::get()->first();
+	}
+	
 }

@@ -111,7 +111,7 @@ PublicEvent:
     Title: 'Concert July A'
     StartDateTime: '2014-07-07 22:00:00'
     TimeFrameType: 'Duration'
-    Duration: '02:00:00'
+    Duration: '03:40:00'
     Details: '<p>The A concert for July. This is a demo concert. You can order tickets.</p>'
     Calendar: =>PublicCalendar.Concerts
     Registerable: 1
@@ -164,32 +164,3 @@ PublicEvent:
     PopulateMergeMatch:
       - StartDateTime
 
-
-
-
-
-
-#CategoryHome:
-#  Emner:
-#    Title: 'Emner'
-#    ParentID: 0
-#    URLSegment: 'emner'
-#    #PopulateMergeWhen: "URLSegment = 'emner' AND ParentID = 0"
-#    #PopulateMergeMatch:
-#    #  - URLSegment
-#    #  - ParentID
-#
-#
-#CategoryGroup:
-#  groupA:
-#    Title: 'Målgruppe'
-#    Parent: =>CategoryHome.Emner
-#  groupB:
-#    Title: 'Redskaber'
-#    Parent: =>CategoryHome.Emner
-#  groupC:
-#    Title: 'Sektor'
-#    Parent: =>CategoryHome.Emner
-#  groupD:
-#    Title: 'Effekt'
-#    Parent: =>CategoryHome.Emner

@@ -111,7 +111,7 @@ PublicEvent:
     Title: 'Concert August A'
     StartDateTime: '2014-08-07 22:00:00'
     TimeFrameType: 'Duration'
-    Duration: '02:00:00'
+    Duration: '03:40:00'
     Details: '<p>The A concert for August. This is a demo concert. You can order tickets.</p>'
     Calendar: =>PublicCalendar.Concerts
     Registerable: 1

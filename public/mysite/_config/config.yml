@@ -12,8 +12,10 @@ SSViewer:
 Populate:
   include_yaml_fixtures:
     - 'mysite/fixtures/calendars.yml'
+    - 'mysite/fixtures/events-june.yml'
     - 'mysite/fixtures/events-july.yml'
     - 'mysite/fixtures/events-august.yml'
+    - 'mysite/fixtures/events-september.yml'
   truncate_objects:
     - Calendar
     - Event

@@ -11,32 +11,20 @@ HomePage:
     Content: ''
     URLSegment: 'home'
     ParentID: 0
-    PopulateMergeMatch:
-      - URLSegment
-      - ParentID
 CalendarPage:
   calendar:
     Title: "Calendar"
     URLSegment: 'calendar'
     ParentID: 0
-    PopulateMergeMatch:
-      - URLSegment
-      - ParentID
 AddEventPage:
   add-events:
     Title: "Add Events"
     Content: "<p>An example of how to add events through the frontend</p>"
     URLSegment: 'add-events'
     ParentID: 0
-    PopulateMergeMatch:
-      - URLSegment
-      - ParentID
 CalendarKeysPage:
   calendar-keys:
     Title: "Calendar Keys"
     Content: "<p>Demonstration of the calendar keys:</p>"
     URLSegment: 'calendar-keys'
     ParentID: 0
-    PopulateMergeMatch:
-      - URLSegment
-      - ParentID

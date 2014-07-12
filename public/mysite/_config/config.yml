@@ -20,3 +20,4 @@ Populate:
   truncate_objects:
     - Calendar
     - Event
+    - SiteTree

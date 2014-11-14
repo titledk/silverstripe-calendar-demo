@@ -17,6 +17,11 @@ Populate:
     - 'mysite/fixtures/events-july.yml'
     - 'mysite/fixtures/events-august.yml'
     - 'mysite/fixtures/events-september.yml'
+    - 'mysite/fixtures/events-october.yml'
+    - 'mysite/fixtures/events-november.yml'
+    - 'mysite/fixtures/events-december.yml'
+    - 'mysite/fixtures/events-january.yml'
+    - 'mysite/fixtures/events-february.yml'
   truncate_objects:
     - Calendar
     - Event

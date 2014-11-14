@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3f44a70db1f399d5a82d43093b3da2e0",
+    "hash": "5f932ae8cfecf0cef187effce8fa0232",
     "packages": [
         {
             "name": "composer/installers",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "020fa1983597249bfcb947b485c5aac8e0e36652"
+                "reference": "8024be9aa3ee446272937f46a8807fa52b337767"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/020fa1983597249bfcb947b485c5aac8e0e36652",
-                "reference": "020fa1983597249bfcb947b485c5aac8e0e36652",
+                "url": "https://api.github.com/repos/composer/installers/zipball/8024be9aa3ee446272937f46a8807fa52b337767",
+                "reference": "8024be9aa3ee446272937f46a8807fa52b337767",
                 "shasum": ""
             },
             "replace": {
@@ -48,8 +48,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
-                    "role": "Developer"
+                    "homepage": "https://github.com/shama"
                 }
             ],
             "description": "A multi-framework Composer library installer",
@@ -60,17 +59,20 @@
                 "Hurad",
                 "MODX Evo",
                 "OXID",
+                "Thelia",
                 "WolfCMS",
                 "agl",
                 "annotatecms",
                 "bitrix",
                 "cakephp",
+                "chef",
                 "codeigniter",
                 "concrete5",
                 "croogo",
                 "drupal",
                 "elgg",
                 "fuelphp",
+                "grav",
                 "installer",
                 "joomla",
                 "kohana",
@@ -84,6 +86,7 @@
                 "phpbb",
                 "piwik",
                 "ppi",
+                "puppet",
                 "roundcube",
                 "shopware",
                 "silverstripe",
@@ -93,7 +96,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-07-09 14:29:42"
+            "time": "2014-11-01 17:51:50"
         },
         {
             "name": "dnadesign/silverstripe-populate",
@@ -101,12 +104,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dnadesign/silverstripe-populate.git",
-                "reference": "901f4e298a656e99a810f8bd4d46b5e8914714ae"
+                "reference": "bff87a45230235354e1f3c42ec046d78b3d6a17f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dnadesign/silverstripe-populate/zipball/901f4e298a656e99a810f8bd4d46b5e8914714ae",
-                "reference": "901f4e298a656e99a810f8bd4d46b5e8914714ae",
+                "url": "https://api.github.com/repos/dnadesign/silverstripe-populate/zipball/bff87a45230235354e1f3c42ec046d78b3d6a17f",
+                "reference": "bff87a45230235354e1f3c42ec046d78b3d6a17f",
                 "shasum": ""
             },
             "require": {
@@ -128,7 +131,7 @@
                 "silverstripe",
                 "yaml"
             ],
-            "time": "2014-04-06 02:10:29"
+            "time": "2014-10-09 02:41:56"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -136,12 +139,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
-                "reference": "84c1215f914b8c20f924202a2ace2812f28d6c0a"
+                "reference": "63c549e82fb8d530bb88a370a8b7c3d8c61ddd74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/84c1215f914b8c20f924202a2ace2812f28d6c0a",
-                "reference": "84c1215f914b8c20f924202a2ace2812f28d6c0a",
+                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/63c549e82fb8d530bb88a370a8b7c3d8c61ddd74",
+                "reference": "63c549e82fb8d530bb88a370a8b7c3d8c61ddd74",
                 "shasum": ""
             },
             "require": {
@@ -164,7 +167,7 @@
                 "silverstripe",
                 "theme"
             ],
-            "time": "2013-10-15 22:16:12"
+            "time": "2014-07-30 04:30:14"
         },
         {
             "name": "silverstripe/cms",
@@ -264,16 +267,23 @@
         },
         {
             "name": "titledk/silverstripe-calendar",
-            "version": "dev-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:titledk/silverstripe-calendar.git",
-                "reference": "b258ec91024fae1f09dc883e88c0177d69c46b8f"
+                "url": "https://github.com/titledk/silverstripe-calendar.git",
+                "reference": "7a8424ad8d676725c72b9db5069824f3c0d532e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/titledk/silverstripe-calendar/zipball/7a8424ad8d676725c72b9db5069824f3c0d532e2",
+                "reference": "7a8424ad8d676725c72b9db5069824f3c0d532e2",
+                "shasum": ""
             },
             "type": "silverstripe-module",
             "extra": {
                 "installer-name": "calendar"
             },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "Anselm Christophersen",
@@ -284,14 +294,14 @@
                     "email": "ccburns@gmail.com"
                 }
             ],
-            "description": "Highly flexible calendar system",
-            "homepage": "https://bitbucket.org/titledk/silverstripe-calendar",
+            "description": "Highly flexible calendar system for SilverStripe",
+            "homepage": "https://github.com/titledk/silverstripe-calendar",
             "keywords": [
                 "calendar",
                 "events",
                 "silverstripe"
             ],
-            "time": "2014-07-12 14:58:09"
+            "time": "2014-11-14 17:58:38"
         },
         {
             "name": "unclecheese/bootstrap-forms",
@@ -299,12 +309,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-bootstrap-forms.git",
-                "reference": "586f5f4477e9e4dfeb17e5fd0ab1c5d938c3ef92"
+                "reference": "8ea7319669e2e1ac9c94faa502c85406a5f5a881"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-bootstrap-forms/zipball/586f5f4477e9e4dfeb17e5fd0ab1c5d938c3ef92",
-                "reference": "586f5f4477e9e4dfeb17e5fd0ab1c5d938c3ef92",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-bootstrap-forms/zipball/8ea7319669e2e1ac9c94faa502c85406a5f5a881",
+                "reference": "8ea7319669e2e1ac9c94faa502c85406a5f5a881",
                 "shasum": ""
             },
             "require": {
@@ -322,8 +332,7 @@
             "authors": [
                 {
                     "name": "Uncle Cheese",
-                    "email": "unclecheese@leftandmain.com",
-                    "homepage": "http://leftandmain.com"
+                    "email": "unclecheese@leftandmain.com"
                 }
             ],
             "description": "Allows you to create forms in SilverStripe that are compatible with Twitter Bootstrap.",
@@ -333,24 +342,19 @@
                 "silverstripe",
                 "twitter"
             ],
-            "time": "2014-07-07 02:23:06"
+            "time": "2014-10-27 22:08:08"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "titledk/silverstripe-calendar": 20,
         "unclecheese/bootstrap-forms": 20
     },
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.2"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }

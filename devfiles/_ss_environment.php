@@ -23,11 +23,6 @@ $_FILE_TO_URL_MAPPING['/Users/anselm/git-repos/silverstripe-calendar-demo/public
 //define('SS_BACKUP_MAMP', true);
 
 
-//FOR HOSTED SITES:
-
-//define('SS_BACKUP_REMOTE_HOST', 'do2@he1new.title.dk');
-//define('SS_BACKUP_REMOTE_DIR', 'calendar-demo-backup');
-
 
 //FOR TEST SITES:
 

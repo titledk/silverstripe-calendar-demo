@@ -1,0 +1,34 @@
+
+##############################################################
+# Terminal Tools Configuration for "Calendar Demo"
+# Add environments under "Evnironments"
+# Adjust the menu under "Menu" to your needs
+##############################################################
+Projectname: "Calendar Demo"
+Environments:
+  Live:
+    Host: "demo.title.dk"
+    Sshuser: "serverpilot"
+    Repodir: "/srv/users/serverpilot/apps/calendardemo"
+    Domain: "calendar.demo.title.dk"
+    Composerpath: "/srv/users/serverpilot/composer.phar"
+    #see here: https://serverpilot.io/community/articles/how-to-use-the-php-cli.html
+    PhpPath: "php5.6-sp"
+Menu:
+  Heading1:
+    Title: Local
+    Item1:
+      Title: Wipe cache
+      Command: "ttools/silverstripe/lib/wipe-cache.sh"
+  Heading2:
+    Title: Live Site
+    Item1:
+      Title: SSH Live Site
+      Command: "ttools/core/local/ssh.sh Live"
+    Item2:
+      Title: Deploy Live Site
+      Command: "ttools/githelpers/local/git-pull-remote.sh Live ttools/silverstripe/lib/deploy.sh"
+Sitesync:
+  FrameworkModule: 'ttools/sitesync-silverstripe'
+
+

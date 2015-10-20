@@ -1,0 +1,2 @@
+#!/bin/sh
+./ttools/core/lib/ttools.sh "$@"

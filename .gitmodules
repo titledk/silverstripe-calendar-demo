@@ -1,6 +1,18 @@
-[submodule "scripts"]
-	path = scripts
-	url = git@bitbucket.org:titledk/scripts.git
-[submodule "public/backup"]
-	path = public/backup
-	url = git@bitbucket.org:titledk/silverstripe-backup
+[submodule "ttools/silverstripe"]
+	path = ttools/silverstripe
+	url = https://github.com/titledk/ttools-silverstripe.git
+[submodule "ttools/core"]
+	path = ttools/core
+	url = git://github.com/titledk/ttools-core.git
+[submodule "ttools/githelpers"]
+	path = ttools/githelpers
+	url = https://github.com/titledk/ttools-githelpers.git
+[submodule "ttools/sitesync-core"]
+	path = ttools/sitesync-core
+	url = https://github.com/titledk/ttools-sitesync-core.git
+[submodule "ttools/sitesync-silverstripe"]
+	path = ttools/sitesync-silverstripe
+	url = https://github.com/titledk/ttools-sitesync-silverstripe.git
+[submodule "ttools/thirdparty/sspak"]
+	path = ttools/thirdparty/sspak
+	url = https://github.com/silverstripe/sspak.git

@@ -1,8 +1,0 @@
-SITENAME: "calendar-demo.title.dk"
-SERVER: "do1.title.dk"
-SSHUSER: "do1"
-SSHPORT: ""
-REPODIR: "/var/git-repos/silverstripe-calendar-demo"
-WEBUSERANDGROUP: "do1:do1"
-DEPLOY_DONTCHOWN: "1"
-DEPLOY_NOSUDO: "1"

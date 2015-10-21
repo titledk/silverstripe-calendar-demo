@@ -1,0 +1,166 @@
+
+
+PublicEvent:
+
+  #Holidays
+  holidayDecember2017A:
+    Title: 'Holiday December A'
+    StartDateTime: '2017-12-02 00:00:00'
+    EndDateTime: '2017-12-09 00:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>A holidays in December. These are the first holidays in December</p>'
+    Calendar: =>PublicCalendar.Holidays
+    PopulateMergeMatch:
+      - StartDateTime
+  holidayDecember2017B:
+    Title: 'Holiday December B'
+    StartDateTime: '2017-12-24 00:00:00'
+    EndDateTime: '2017-12-27 00:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>B holidays in December. These are the second holidays in December</p>'
+    Calendar: =>PublicCalendar.Holidays
+    PopulateMergeMatch:
+      - StartDateTime
+
+  #Meetups
+  meetupDecember2017A:
+    Title: 'Meetup December A'
+    StartDateTime: '2017-12-11 16:00:00'
+    EndDateTime: '2017-12-13 16:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>December's A meetup scheduled for A.</p>'
+    Calendar: =>PublicCalendar.Meetups
+    Registerable: 1
+    PopulateMergeMatch:
+      - StartDateTime
+  meetupDecember2017B:
+    Title: 'Meetup December B'
+    StartDateTime: '2017-12-25 16:00:00'
+    EndDateTime: '2017-12-26 16:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>December's B meetup scheduled for B.</p>'
+    Calendar: =>PublicCalendar.Meetups
+    Registerable: 1
+    PopulateMergeMatch:
+      - StartDateTime
+  meetupDecember2017C:
+    Title: 'Meetup December C'
+    StartDateTime: '2017-12-30 16:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>December's C meetup scheduled for C.</p>'
+    Calendar: =>PublicCalendar.Meetups
+    Registerable: 1
+    PopulateMergeMatch:
+      - StartDateTime
+
+
+  #Private
+  privateDecember2017A:
+    Title: 'Private December A'
+    StartDateTime: '2017-12-11 22:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '03:00:00'
+    Details: '<p>Private event A for December. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateDecember2017B:
+    Title: 'Private December B'
+    StartDateTime: '2017-12-02 12:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '05:00:00'
+    Details: '<p>Private event B for December. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateDecember2017C:
+    Title: 'Private December C'
+    StartDateTime: '2017-12-22 21:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '01:00:00'
+    Details: '<p>Private event C for December. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateDecember2017D:
+    Title: 'Private December D'
+    StartDateTime: '2017-12-07 15:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '01:30:00'
+    Details: '<p>Private event D for December. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateDecember2017E:
+    Title: 'Private December E'
+    StartDateTime: '2017-12-26 9:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '08:00:00'
+    Details: '<p>Private event E for December. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+
+  #Concerts
+  concertDecember2017A:
+    Title: 'Concert December A'
+    StartDateTime: '2017-12-07 22:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '03:40:00'
+    Details: '<p>The A concert for December. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 22
+    PopulateMergeMatch:
+      - StartDateTime
+  concertDecember2017B:
+    Title: 'Concert December B'
+    StartDateTime: '2017-12-09 16:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:50:00'
+    Details: '<p>The B concert for December. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 12
+    PopulateMergeMatch:
+      - StartDateTime
+  concertDecember2017C:
+    Title: 'Concert December C'
+    StartDateTime: '2017-12-18 18:30:00'
+    TimeFrameType: 'Duration'
+    Duration: '03:30:00'
+    Details: '<p>The C concert for December. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 20
+    PopulateMergeMatch:
+      - StartDateTime
+  concertDecember2017D:
+    Title: 'Concert December D'
+    StartDateTime: '2017-12-19 22:30:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:55:00'
+    Details: '<p>The D concert for December. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 9
+    PopulateMergeMatch:
+      - StartDateTime
+

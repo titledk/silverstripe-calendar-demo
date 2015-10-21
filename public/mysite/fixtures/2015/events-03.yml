@@ -1,0 +1,166 @@
+
+
+PublicEvent:
+
+  #Holidays
+  holidayMarch2015A:
+    Title: 'Holiday March A'
+    StartDateTime: '2015-03-02 00:00:00'
+    EndDateTime: '2015-03-09 00:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>A holidays in March. These are the first holidays in March</p>'
+    Calendar: =>PublicCalendar.Holidays
+    PopulateMergeMatch:
+      - StartDateTime
+  holidayMarch2015B:
+    Title: 'Holiday March B'
+    StartDateTime: '2015-03-24 00:00:00'
+    EndDateTime: '2015-03-27 00:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>B holidays in March. These are the second holidays in March</p>'
+    Calendar: =>PublicCalendar.Holidays
+    PopulateMergeMatch:
+      - StartDateTime
+
+  #Meetups
+  meetupMarch2015A:
+    Title: 'Meetup March A'
+    StartDateTime: '2015-03-11 16:00:00'
+    EndDateTime: '2015-03-13 16:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>March's A meetup scheduled for A.</p>'
+    Calendar: =>PublicCalendar.Meetups
+    Registerable: 1
+    PopulateMergeMatch:
+      - StartDateTime
+  meetupMarch2015B:
+    Title: 'Meetup March B'
+    StartDateTime: '2015-03-25 16:00:00'
+    EndDateTime: '2015-03-26 16:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>March's B meetup scheduled for B.</p>'
+    Calendar: =>PublicCalendar.Meetups
+    Registerable: 1
+    PopulateMergeMatch:
+      - StartDateTime
+  meetupMarch2015C:
+    Title: 'Meetup March C'
+    StartDateTime: '2015-03-30 16:00:00'
+    AllDay: 1
+    TimeFrameType: 'DateTime'
+    Details: '<p>March's C meetup scheduled for C.</p>'
+    Calendar: =>PublicCalendar.Meetups
+    Registerable: 1
+    PopulateMergeMatch:
+      - StartDateTime
+
+
+  #Private
+  privateMarch2015A:
+    Title: 'Private March A'
+    StartDateTime: '2015-03-11 22:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '03:00:00'
+    Details: '<p>Private event A for March. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateMarch2015B:
+    Title: 'Private March B'
+    StartDateTime: '2015-03-02 12:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '05:00:00'
+    Details: '<p>Private event B for March. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateMarch2015C:
+    Title: 'Private March C'
+    StartDateTime: '2015-03-22 21:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '01:00:00'
+    Details: '<p>Private event C for March. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateMarch2015D:
+    Title: 'Private March D'
+    StartDateTime: '2015-03-07 15:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '01:30:00'
+    Details: '<p>Private event D for March. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+  privateMarch2015E:
+    Title: 'Private March E'
+    StartDateTime: '2015-03-26 9:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '08:00:00'
+    Details: '<p>Private event E for March. This is a demo event for the "Private" calendar.</p>'
+    Calendar: =>PublicCalendar.Private
+    PopulateMergeMatch:
+      - StartDateTime
+
+  #Concerts
+  concertMarch2015A:
+    Title: 'Concert March A'
+    StartDateTime: '2015-03-07 22:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '03:40:00'
+    Details: '<p>The A concert for March. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 22
+    PopulateMergeMatch:
+      - StartDateTime
+  concertMarch2015B:
+    Title: 'Concert March B'
+    StartDateTime: '2015-03-09 16:00:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:50:00'
+    Details: '<p>The B concert for March. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 12
+    PopulateMergeMatch:
+      - StartDateTime
+  concertMarch2015C:
+    Title: 'Concert March C'
+    StartDateTime: '2015-03-18 18:30:00'
+    TimeFrameType: 'Duration'
+    Duration: '03:30:00'
+    Details: '<p>The C concert for March. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 20
+    PopulateMergeMatch:
+      - StartDateTime
+  concertMarch2015D:
+    Title: 'Concert March D'
+    StartDateTime: '2015-03-19 22:30:00'
+    TimeFrameType: 'Duration'
+    Duration: '02:55:00'
+    Details: '<p>The D concert for March. This is a demo concert. You can order tickets.</p>'
+    Calendar: =>PublicCalendar.Concerts
+    Registerable: 1
+    TicketsRequired: 1
+    PaymentRequired: 1
+    CostCurrency: USD
+    CostAmount: 9
+    PopulateMergeMatch:
+      - StartDateTime
+

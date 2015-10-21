@@ -3,20 +3,20 @@
 PublicEvent:
 
   #Holidays
-  holidaySeptemberA:
+  holidaySeptember2016A:
     Title: 'Holiday September A'
-    StartDateTime: '2014-09-02 00:00:00'
-    EndDateTime: '2014-09-09 00:00:00'
+    StartDateTime: '2016-09-02 00:00:00'
+    EndDateTime: '2016-09-09 00:00:00'
     AllDay: 1
     TimeFrameType: 'DateTime'
     Details: '<p>A holidays in September. These are the first holidays in September</p>'
     Calendar: =>PublicCalendar.Holidays
     PopulateMergeMatch:
       - StartDateTime
-  holidaySeptemberB:
+  holidaySeptember2016B:
     Title: 'Holiday September B'
-    StartDateTime: '2014-09-24 00:00:00'
-    EndDateTime: '2014-09-27 00:00:00'
+    StartDateTime: '2016-09-24 00:00:00'
+    EndDateTime: '2016-09-27 00:00:00'
     AllDay: 1
     TimeFrameType: 'DateTime'
     Details: '<p>B holidays in September. These are the second holidays in September</p>'
@@ -25,10 +25,10 @@ PublicEvent:
       - StartDateTime
 
   #Meetups
-  meetupSeptemberA:
+  meetupSeptember2016A:
     Title: 'Meetup September A'
-    StartDateTime: '2014-09-11 16:00:00'
-    EndDateTime: '2014-09-13 16:00:00'
+    StartDateTime: '2016-09-11 16:00:00'
+    EndDateTime: '2016-09-13 16:00:00'
     AllDay: 1
     TimeFrameType: 'DateTime'
     Details: '<p>September's A meetup scheduled for A.</p>'
@@ -36,10 +36,10 @@ PublicEvent:
     Registerable: 1
     PopulateMergeMatch:
       - StartDateTime
-  meetupSeptemberB:
+  meetupSeptember2016B:
     Title: 'Meetup September B'
-    StartDateTime: '2014-09-25 16:00:00'
-    EndDateTime: '2014-09-26 16:00:00'
+    StartDateTime: '2016-09-25 16:00:00'
+    EndDateTime: '2016-09-26 16:00:00'
     AllDay: 1
     TimeFrameType: 'DateTime'
     Details: '<p>September's B meetup scheduled for B.</p>'
@@ -47,9 +47,9 @@ PublicEvent:
     Registerable: 1
     PopulateMergeMatch:
       - StartDateTime
-  meetupSeptemberC:
+  meetupSeptember2016C:
     Title: 'Meetup September C'
-    StartDateTime: '2014-09-30 16:00:00'
+    StartDateTime: '2016-09-30 16:00:00'
     AllDay: 1
     TimeFrameType: 'DateTime'
     Details: '<p>September's C meetup scheduled for C.</p>'
@@ -60,45 +60,45 @@ PublicEvent:
 
 
   #Private
-  privateSeptemberA:
+  privateSeptember2016A:
     Title: 'Private September A'
-    StartDateTime: '2014-09-11 22:00:00'
+    StartDateTime: '2016-09-11 22:00:00'
     TimeFrameType: 'Duration'
     Duration: '03:00:00'
     Details: '<p>Private event A for September. This is a demo event for the "Private" calendar.</p>'
     Calendar: =>PublicCalendar.Private
     PopulateMergeMatch:
       - StartDateTime
-  privateSeptemberB:
+  privateSeptember2016B:
     Title: 'Private September B'
-    StartDateTime: '2014-09-02 12:00:00'
+    StartDateTime: '2016-09-02 12:00:00'
     TimeFrameType: 'Duration'
     Duration: '05:00:00'
     Details: '<p>Private event B for September. This is a demo event for the "Private" calendar.</p>'
     Calendar: =>PublicCalendar.Private
     PopulateMergeMatch:
       - StartDateTime
-  privateSeptemberC:
+  privateSeptember2016C:
     Title: 'Private September C'
-    StartDateTime: '2014-09-22 21:00:00'
+    StartDateTime: '2016-09-22 21:00:00'
     TimeFrameType: 'Duration'
     Duration: '01:00:00'
     Details: '<p>Private event C for September. This is a demo event for the "Private" calendar.</p>'
     Calendar: =>PublicCalendar.Private
     PopulateMergeMatch:
       - StartDateTime
-  privateSeptemberD:
+  privateSeptember2016D:
     Title: 'Private September D'
-    StartDateTime: '2014-09-07 15:00:00'
+    StartDateTime: '2016-09-07 15:00:00'
     TimeFrameType: 'Duration'
     Duration: '01:30:00'
     Details: '<p>Private event D for September. This is a demo event for the "Private" calendar.</p>'
     Calendar: =>PublicCalendar.Private
     PopulateMergeMatch:
       - StartDateTime
-  privateSeptemberE:
+  privateSeptember2016E:
     Title: 'Private September E'
-    StartDateTime: '2014-09-26 9:00:00'
+    StartDateTime: '2016-09-26 9:00:00'
     TimeFrameType: 'Duration'
     Duration: '08:00:00'
     Details: '<p>Private event E for September. This is a demo event for the "Private" calendar.</p>'
@@ -107,9 +107,9 @@ PublicEvent:
       - StartDateTime
 
   #Concerts
-  concertSeptemberA:
+  concertSeptember2016A:
     Title: 'Concert September A'
-    StartDateTime: '2014-09-07 22:00:00'
+    StartDateTime: '2016-09-07 22:00:00'
     TimeFrameType: 'Duration'
     Duration: '03:40:00'
     Details: '<p>The A concert for September. This is a demo concert. You can order tickets.</p>'
@@ -121,9 +121,9 @@ PublicEvent:
     CostAmount: 22
     PopulateMergeMatch:
       - StartDateTime
-  concertSeptemberB:
+  concertSeptember2016B:
     Title: 'Concert September B'
-    StartDateTime: '2014-09-09 16:00:00'
+    StartDateTime: '2016-09-09 16:00:00'
     TimeFrameType: 'Duration'
     Duration: '02:50:00'
     Details: '<p>The B concert for September. This is a demo concert. You can order tickets.</p>'
@@ -135,9 +135,9 @@ PublicEvent:
     CostAmount: 12
     PopulateMergeMatch:
       - StartDateTime
-  concertSeptemberC:
+  concertSeptember2016C:
     Title: 'Concert September C'
-    StartDateTime: '2014-09-18 18:30:00'
+    StartDateTime: '2016-09-18 18:30:00'
     TimeFrameType: 'Duration'
     Duration: '03:30:00'
     Details: '<p>The C concert for September. This is a demo concert. You can order tickets.</p>'
@@ -149,9 +149,9 @@ PublicEvent:
     CostAmount: 20
     PopulateMergeMatch:
       - StartDateTime
-  concertSeptemberD:
+  concertSeptember2016D:
     Title: 'Concert September D'
-    StartDateTime: '2014-09-19 22:30:00'
+    StartDateTime: '2016-09-19 22:30:00'
     TimeFrameType: 'Duration'
     Duration: '02:55:00'
     Details: '<p>The D concert for September. This is a demo concert. You can order tickets.</p>'

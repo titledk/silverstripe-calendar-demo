@@ -3,7 +3,7 @@
 PublicEvent:
 
   #Holidays
-  holidayJanuaryA:
+  holidayJanuary2015A:
     Title: 'Holiday January A'
     StartDateTime: '2015-01-02 00:00:00'
     EndDateTime: '2015-01-09 00:00:00'
@@ -13,7 +13,7 @@ PublicEvent:
     Calendar: =>PublicCalendar.Holidays
     PopulateMergeMatch:
       - StartDateTime
-  holidayJanuaryB:
+  holidayJanuary2015B:
     Title: 'Holiday January B'
     StartDateTime: '2015-01-24 00:00:00'
     EndDateTime: '2015-01-27 00:00:00'
@@ -25,7 +25,7 @@ PublicEvent:
       - StartDateTime
 
   #Meetups
-  meetupJanuaryA:
+  meetupJanuary2015A:
     Title: 'Meetup January A'
     StartDateTime: '2015-01-11 16:00:00'
     EndDateTime: '2015-01-13 16:00:00'
@@ -36,7 +36,7 @@ PublicEvent:
     Registerable: 1
     PopulateMergeMatch:
       - StartDateTime
-  meetupJanuaryB:
+  meetupJanuary2015B:
     Title: 'Meetup January B'
     StartDateTime: '2015-01-25 16:00:00'
     EndDateTime: '2015-01-26 16:00:00'
@@ -47,7 +47,7 @@ PublicEvent:
     Registerable: 1
     PopulateMergeMatch:
       - StartDateTime
-  meetupJanuaryC:
+  meetupJanuary2015C:
     Title: 'Meetup January C'
     StartDateTime: '2015-01-30 16:00:00'
     AllDay: 1
@@ -60,7 +60,7 @@ PublicEvent:
 
 
   #Private
-  privateJanuaryA:
+  privateJanuary2015A:
     Title: 'Private January A'
     StartDateTime: '2015-01-11 22:00:00'
     TimeFrameType: 'Duration'
@@ -69,7 +69,7 @@ PublicEvent:
     Calendar: =>PublicCalendar.Private
     PopulateMergeMatch:
       - StartDateTime
-  privateJanuaryB:
+  privateJanuary2015B:
     Title: 'Private January B'
     StartDateTime: '2015-01-02 12:00:00'
     TimeFrameType: 'Duration'
@@ -78,7 +78,7 @@ PublicEvent:
     Calendar: =>PublicCalendar.Private
     PopulateMergeMatch:
       - StartDateTime
-  privateJanuaryC:
+  privateJanuary2015C:
     Title: 'Private January C'
     StartDateTime: '2015-01-22 21:00:00'
     TimeFrameType: 'Duration'
@@ -87,7 +87,7 @@ PublicEvent:
     Calendar: =>PublicCalendar.Private
     PopulateMergeMatch:
       - StartDateTime
-  privateJanuaryD:
+  privateJanuary2015D:
     Title: 'Private January D'
     StartDateTime: '2015-01-07 15:00:00'
     TimeFrameType: 'Duration'
@@ -96,7 +96,7 @@ PublicEvent:
     Calendar: =>PublicCalendar.Private
     PopulateMergeMatch:
       - StartDateTime
-  privateJanuaryE:
+  privateJanuary2015E:
     Title: 'Private January E'
     StartDateTime: '2015-01-26 9:00:00'
     TimeFrameType: 'Duration'
@@ -107,7 +107,7 @@ PublicEvent:
       - StartDateTime
 
   #Concerts
-  concertJanuaryA:
+  concertJanuary2015A:
     Title: 'Concert January A'
     StartDateTime: '2015-01-07 22:00:00'
     TimeFrameType: 'Duration'
@@ -121,7 +121,7 @@ PublicEvent:
     CostAmount: 22
     PopulateMergeMatch:
       - StartDateTime
-  concertJanuaryB:
+  concertJanuary2015B:
     Title: 'Concert January B'
     StartDateTime: '2015-01-09 16:00:00'
     TimeFrameType: 'Duration'
@@ -135,7 +135,7 @@ PublicEvent:
     CostAmount: 12
     PopulateMergeMatch:
       - StartDateTime
-  concertJanuaryC:
+  concertJanuary2015C:
     Title: 'Concert January C'
     StartDateTime: '2015-01-18 18:30:00'
     TimeFrameType: 'Duration'
@@ -149,7 +149,7 @@ PublicEvent:
     CostAmount: 20
     PopulateMergeMatch:
       - StartDateTime
-  concertJanuaryD:
+  concertJanuary2015D:
     Title: 'Concert January D'
     StartDateTime: '2015-01-19 22:30:00'
     TimeFrameType: 'Duration'

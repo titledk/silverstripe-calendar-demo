@@ -365,12 +365,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/titledk/silverstripe-calendar.git",
-                "reference": "248253f8113f9063bf4349a60cd7464d4891b29d"
+                "reference": "a175cf76dd4a0f60e94bbd4b8fcead89d33640da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/titledk/silverstripe-calendar/zipball/248253f8113f9063bf4349a60cd7464d4891b29d",
-                "reference": "248253f8113f9063bf4349a60cd7464d4891b29d",
+                "url": "https://api.github.com/repos/titledk/silverstripe-calendar/zipball/a175cf76dd4a0f60e94bbd4b8fcead89d33640da",
+                "reference": "a175cf76dd4a0f60e94bbd4b8fcead89d33640da",
                 "shasum": ""
             },
             "type": "silverstripe-module",
@@ -402,7 +402,7 @@
                 "events",
                 "silverstripe"
             ],
-            "time": "2015-10-01 08:38:15"
+            "time": "2015-10-21 12:36:23"
         },
         {
             "name": "unclecheese/bootstrap-forms",

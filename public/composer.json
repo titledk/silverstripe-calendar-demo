@@ -6,7 +6,7 @@
 		"silverstripe/cms": "3.2.*",
 		"silverstripe/framework": "3.2.*",
 		"silverstripe-themes/simple": "*",
-		"titledk/silverstripe-calendar": "1.0.x-dev",
+		"titledk/silverstripe-calendar": "1.1.x-dev",
 		"unclecheese/bootstrap-forms": "dev-master",
 		"dnadesign/silverstripe-populate": "*"
 	},

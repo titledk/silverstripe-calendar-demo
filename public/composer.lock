@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9281a89b368c2accd46fa8591c98a188",
-    "content-hash": "6b62deba132c4b8dc3f8910c6b9487d9",
+    "hash": "20b0302a8b38d65ea409061eca45f744",
+    "content-hash": "02153c8833a4af43dd41bbe4260815f9",
     "packages": [
         {
             "name": "composer/installers",
@@ -361,16 +361,16 @@
         },
         {
             "name": "titledk/silverstripe-calendar",
-            "version": "1.0.x-dev",
+            "version": "1.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/titledk/silverstripe-calendar.git",
-                "reference": "a175cf76dd4a0f60e94bbd4b8fcead89d33640da"
+                "reference": "119afda6087ff969edac1d005419886032ed980e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/titledk/silverstripe-calendar/zipball/a175cf76dd4a0f60e94bbd4b8fcead89d33640da",
-                "reference": "a175cf76dd4a0f60e94bbd4b8fcead89d33640da",
+                "url": "https://api.github.com/repos/titledk/silverstripe-calendar/zipball/119afda6087ff969edac1d005419886032ed980e",
+                "reference": "119afda6087ff969edac1d005419886032ed980e",
                 "shasum": ""
             },
             "type": "silverstripe-module",
@@ -402,7 +402,7 @@
                 "events",
                 "silverstripe"
             ],
-            "time": "2015-10-21 12:36:23"
+            "time": "2015-10-21 13:40:59"
         },
         {
             "name": "unclecheese/bootstrap-forms",

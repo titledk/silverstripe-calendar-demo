@@ -7,6 +7,8 @@ public/framework/
 public/themes/simple
 public/themes/tutorial
 public/calendar/
+public/reports/
+public/siteconfig/
 logs
 rotatingbackups
 temp

@@ -2,6 +2,12 @@
 
 See it online here: <http://calendar.demo.title.dk>
 
+## Compatibility
+
+	1.0: 3.1.x
+	master: 3.2.x
+
+
 ## Installation
 
 1. Clone this repo locally

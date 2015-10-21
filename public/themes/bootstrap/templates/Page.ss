@@ -29,6 +29,9 @@
 </div> <!-- /container -->
 
 
+<!-- github buttons -->
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+
 </body>
 </html>
 

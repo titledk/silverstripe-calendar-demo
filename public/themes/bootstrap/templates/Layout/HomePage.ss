@@ -10,9 +10,16 @@
 		<a href="http://title.dk" target="_blank">Title Web Solutions</a>.
 		<br />
 		The site has been filled with demo events.
-		
 	</p>
+	<p>
+		This demo site as well as the calendar are open source, and available on Github:
 
+		<br>
+		<br>
+		<a class="github-button" href="https://github.com/titledk/silverstripe-calendar" data-style="mega" data-count-href="/titledk/silverstripe-calendar/stargazers" data-count-api="/repos/titledk/silverstripe-calendar#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star titledk/silverstripe-calendar on GitHub">Calendar Module</a>
+		&nbsp;
+		<a class="github-button" href="https://github.com/titledk/silverstripe-calendar-demo" data-style="mega" data-count-href="/titledk/silverstripe-calendar-demo/stargazers" data-count-api="/repos/titledk/silverstripe-calendar-demo#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star titledk/silverstripe-calendar-demo on GitHub">This demo site</a>
+	</p>
 
 	<!-- Nav tabs -->
 	<ul class="nav nav-tabs" role="tablist">
@@ -29,6 +36,7 @@
 
 
 			<h2>Calendar</h2>
+
 			<p>
 				The calendar on this site is configured with the calendar view as default. <br />
 				There's also an event list <em>(listing all events in a month)</em>, and the
@@ -66,9 +74,9 @@
 					Registerable event examples <span class="caret"></span>
 				</button>
 				<ul class="dropdown-menu" role="menu">
-					<li><a href="{$CalendarPage.Link}eventregistration/?month=2014-09">All registerable events for September (2014)</a></li>
-					<li><a href="{$CalendarPage.Link}search?q=concert+september">Concerts in September (2014)</a></li>
-					<li><a href="{$CalendarPage.Link}search?q=Meetup+September+A">A meetup in September (2014)</a></li>
+					<li><a href="{$CalendarPage.Link}eventregistration/?month=2016-09">All registerable events for September (2016)</a></li>
+					<li><a href="{$CalendarPage.Link}search?q=concert+september">Concerts in September</a></li>
+					<li><a href="{$CalendarPage.Link}search?q=Meetup+September+A">A meetup in September</a></li>
 				</ul>
 			</div>
 
@@ -85,8 +93,8 @@
 					Search for <span class="caret"></span>
 				</button>
 				<ul class="dropdown-menu" role="menu">
-					<li><a href="{$CalendarPage.Link}search?q=august+concert">Concerts in August (2014)</a></li>
-					<li><a href="{$CalendarPage.Link}search?q=august+concert">Meetups in September (2014)</a></li>
+					<li><a href="{$CalendarPage.Link}search?q=august+concert">Concerts in August</a></li>
+					<li><a href="{$CalendarPage.Link}search?q=september+meetup">Meetups in September</a></li>
 				</ul>
 			</div>
 
